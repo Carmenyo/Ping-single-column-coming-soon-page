@@ -1,0 +1,27 @@
+.main {
+  width: 100%;
+  padding: 5rem 0;
+  align-items: center;
+  text-align: center;
+
+  &__logo {
+    width: 60px;
+  }
+
+  &__intro {
+    
+    margin-top: 2.3rem;
+    &--title{
+      font-size: $Font-size;
+    }
+    &--paragraph{
+      margin-top: 1.5rem;
+      font-size: 1rem;
+      font-weight: $font-weight-slim;
+    }
+  }
+
+  &__image {
+    width: 350px;
+  }
+}

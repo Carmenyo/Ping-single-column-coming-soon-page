@@ -1,0 +1,60 @@
+@charset "UTF-8";
+.main {
+  width: 100%;
+  padding: 5rem 0;
+  align-items: center;
+  text-align: center;
+}
+.main__logo {
+  width: 60px;
+}
+.main__intro {
+  margin-top: 2.3rem;
+}
+.main__intro--title {
+  font-size: 1.3rem;
+}
+.main__intro--paragraph {
+  margin-top: 1.5rem;
+  font-size: 1rem;
+  font-weight: 300;
+}
+.main__image {
+  width: 350px;
+}
+
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+
+body {
+  line-height: 1;
+}
+
+/* Agregar más reglas de estilo según sea necesario */
+/* Normalización CSS */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* Agregar más reglas de normalización según sea necesario */
+body {
+  border: 2px red solid;
+  height: 100vh;
+  display: flex;
+  text-align: center;
+  font-family: "Libre Franklin", sans-serif;
+}/*# sourceMappingURL=main.css.map */
