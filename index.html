@@ -13,8 +13,10 @@
   <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,600;0,700;1,300&display=swap"
     rel="stylesheet">
 
-    <!-- Hoja de Estilos -->
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/de34a2681d.js" crossorigin="anonymous"></script>
 
+  <!-- Hoja de Estilos -->
   <link rel="stylesheet" href="./styles/main.css">
   <title>Frontend Mentor | Ping coming soon page</title>
 </head>
@@ -22,27 +24,38 @@
 <body>
   <main class="main">
 
-      <img class="main__logo" src="./images/logo.svg" alt="logo">
-  
+    <img class="main__logo" src="./images/logo.svg" alt="logo">
+
     <section class="main__intro">
-      <h1 class="main__intro--title"> We are launching soon!</h1>
+      <h1 class="main__intro--title"> We are launching <span class="main__intro--bold">soon!</span></h1>
       <p class="main__intro--paragraph">Subscribe and get notified</p>
     </section>
-    <section class="main__form">
-      <form action="">
-        <input type="text" Your email address>
-        <button>Notify Me</button>
-      </form>
 
-      <img class="main__image"  src="./images/illustration-dashboard.png" alt="">
+    <form class="main__form" action="">
+      <label for="nombre"></label>
+      <input class="main__form--input" type="text">
+      <button class="main__form--button">Notify Me</button>
+    </form>
+
+    <section class="main__image">
+      <img class="main__image--picture" src="./images/illustration-dashboard.png" alt="">
     </section>
-    <footer>
-      <div class="social">
+ </main>
+ 
+    <footer class="footer">
+      <div class="footer__social">
+        <div class="icon-circle">
+          <i class="fa-brands fa-facebook-f" style="color:hsl(223, 87%, 63%)"></i>
+        </div>
+        <div class="icon-circle"><i class="fa-brands fa-twitter" style="color:hsl(223, 87%, 63%)"></i></div>
+        <div class="icon-circle"> <i class="fa-brands fa-instagram" style="color:hsl(223, 87%, 63%)"></i></div>
       </div>
+
+
       <div class="copyright"> &copy; Copyright Ping. All rights reserved.</div>
     </footer>
 
-  </main>
+ 
 </body>
 
 </html>

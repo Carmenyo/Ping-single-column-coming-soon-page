@@ -29,9 +29,9 @@ html {
 /* Agregar más reglas de normalización según sea necesario */
 
 body {
-  border: 2px red solid;
   height: 100vh;
   display: flex;
   text-align: center;
   font-family: $Font-family;
+  flex-direction: column;
 }

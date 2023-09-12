@@ -1,7 +1,7 @@
 @charset "UTF-8";
 .main {
   width: 100%;
-  padding: 5rem 0;
+  padding: 5.2rem 0;
   align-items: center;
   text-align: center;
 }
@@ -10,17 +10,58 @@
 }
 .main__intro {
   margin-top: 2.3rem;
+  margin-bottom: 2rem;
 }
 .main__intro--title {
+  color: hsl(0, 0%, 59%);
   font-size: 1.3rem;
+  font-weight: 300;
+}
+.main__intro--bold {
+  font-weight: 700;
+  color: hsl(209, 33%, 12%);
 }
 .main__intro--paragraph {
   margin-top: 1.5rem;
   font-size: 1rem;
   font-weight: 300;
 }
+.main__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+.main__form--input {
+  border: 2px hsl(223, 87%, 63%) solid;
+  width: 77%;
+  height: 2.3rem;
+  border-radius: 2rem;
+  margin-bottom: 0.8rem;
+}
+.main__form--button {
+  background-color: hsl(223, 87%, 63%);
+  color: white;
+  padding: 0.6rem 6.5rem;
+  border-radius: 2rem;
+}
 .main__image {
-  width: 350px;
+  padding: 0.4rem 2rem;
+  margin-bottom: 1.6rem;
+}
+.main__image--picture {
+  width: 100%;
+}
+
+.icon-circle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: hsl(223, 100%, 88%) 2px solid;
 }
 
 /* Reset CSS */
@@ -52,9 +93,9 @@ html {
 
 /* Agregar más reglas de normalización según sea necesario */
 body {
-  border: 2px red solid;
   height: 100vh;
   display: flex;
   text-align: center;
   font-family: "Libre Franklin", sans-serif;
+  flex-direction: column;
 }/*# sourceMappingURL=main.css.map */
