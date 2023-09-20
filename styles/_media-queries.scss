@@ -1,0 +1,49 @@
+@media (min-width: 769px) {
+  .main {
+    &__logo {
+      width: 6rem;
+    }
+    &__intro {
+      &--title {
+        margin-top: 3rem;
+        font-size: 3rem;
+        font-weight: 100;
+      }
+      &--paragraph {
+        font-size: 1.2rem;
+        color: $Very-Dark-Blue;
+        margin-bottom: 3rem;
+      }
+    }
+    &__form {
+      display: flex;
+      flex-direction: row;
+      align-items: normal;
+      margin: auto;
+      width: 40rem;
+      gap: 0.5rem;
+      margin-bottom: 4rem;
+
+      &--input {
+        width: 80%;
+        height: 3.6rem;
+      }
+
+      &--button {
+        width: 14rem;
+        height: 3.6rem;
+        padding: 0.5rem 4rem;
+      }
+    }
+    &__image {
+      max-width: 44rem;
+      margin: auto;
+    }
+  }
+  .footer{
+    width: 25rem;
+    margin: -1.5rem auto;
+    display: flex;
+    flex-direction: column;
+  }
+}
