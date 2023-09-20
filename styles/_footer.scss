@@ -1,0 +1,14 @@
+.footer{
+    &__social{
+        width: 35%;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 2rem;  
+    }
+    &__copyright{
+        font-size: .6rem;
+        color: $Gray ;
+    }
+
+}

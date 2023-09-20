@@ -61,7 +61,7 @@
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  border: hsl(223, 100%, 88%) 2px solid;
+  border: hsl(223, 100%, 88%) 1px solid;
 }
 
 /* Reset CSS */
@@ -98,4 +98,16 @@ body {
   text-align: center;
   font-family: "Libre Franklin", sans-serif;
   flex-direction: column;
+}
+
+.footer__social {
+  width: 35%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 2rem;
+}
+.footer__copyright {
+  font-size: 0.6rem;
+  color: hsl(0, 0%, 59%);
 }/*# sourceMappingURL=main.css.map */
