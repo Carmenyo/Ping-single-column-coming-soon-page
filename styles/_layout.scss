@@ -35,15 +35,27 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 4rem;
-   
+     ::placeholder{
+      color: $Pale-Blue;
+      padding: 1rem 1rem;
+  
+    }
 
     &--input{
-      border: 2px $Blue solid;
+      border: 2px $Pale-Blue solid;
       width: 77%;
       height: 2.3rem;
       border-radius: 2rem;
       margin-bottom: .8rem;
     }
+
+    &--error{
+      color: $Light-Red;
+      font-size: .7rem;
+      margin-bottom: 2rem;
+    }
+
+   
     
     &--button{
       background-color: $Blue ;

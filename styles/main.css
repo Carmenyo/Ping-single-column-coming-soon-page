@@ -33,12 +33,25 @@
   align-items: center;
   margin-bottom: 4rem;
 }
+.main__form ::-moz-placeholder {
+  color: hsl(223, 100%, 88%);
+  padding: 1rem 1rem;
+}
+.main__form ::placeholder {
+  color: hsl(223, 100%, 88%);
+  padding: 1rem 1rem;
+}
 .main__form--input {
-  border: 2px hsl(223, 87%, 63%) solid;
+  border: 2px hsl(223, 100%, 88%) solid;
   width: 77%;
   height: 2.3rem;
   border-radius: 2rem;
   margin-bottom: 0.8rem;
+}
+.main__form--error {
+  color: hsl(354, 100%, 66%);
+  font-size: 0.7rem;
+  margin-bottom: 2rem;
 }
 .main__form--button {
   background-color: hsl(223, 87%, 63%);
