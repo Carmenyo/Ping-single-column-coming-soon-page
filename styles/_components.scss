@@ -6,4 +6,11 @@
   height: 30px;
   border-radius: 50%;
   border: $Pale-Blue 1px solid;
+  cursor: pointer;
 }
+
+.icon-circle:hover{
+  background-color: $Pale-Blue;
+}
+
+

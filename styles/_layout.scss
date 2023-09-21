@@ -50,9 +50,12 @@
     }
 
     &--error{
+      // display: none;
       color: $Light-Red;
       font-size: .7rem;
       margin-bottom: 2rem;
+      font-style: oblique;
+     
     }
 
    
@@ -62,7 +65,13 @@
       color: white;
       padding: .6rem 6.5rem;
       border-radius: 2rem;
+      cursor: pointer;
+      box-shadow: 2px 2px 4px rgba(21, 100, 190, 0.4);
     }
+    &--button:hover{
+      background-color: $Blue;
+    }
+
   }
   &__image {
     padding: 0.4rem 2rem ;
