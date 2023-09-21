@@ -29,15 +29,14 @@
       }
 
       &--input {
-        width: 90%;
+        width: 100%;
         height: 3.6rem;
       }
 
       &--error{
         // display: none;
         color: $Light-Red;
-        font-size: 1rem;
-        margin-bottom: 2rem;
+        font-size: .8rem;
         text-align: left;
         margin-left: 2rem;
        
@@ -51,12 +50,12 @@
     }
     &__image {
       max-width: 44rem;
-      margin: auto;
+      margin: -2rem auto;
     }
   }
   .footer{
     width: 25rem;
-    margin: -1.5rem auto;
+    margin: auto;
     display: flex;
     flex-direction: column;
   }
