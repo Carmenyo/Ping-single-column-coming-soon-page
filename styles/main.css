@@ -1,12 +1,12 @@
 @charset "UTF-8";
 .main {
   width: 100%;
-  padding: 5.2rem 0;
   align-items: center;
   text-align: center;
+  margin-top: 5.2rem;
 }
 .main__logo {
-  width: 60px;
+  width: 55px;
 }
 .main__intro {
   margin-top: 2.3rem;
@@ -15,7 +15,8 @@
 .main__intro--title {
   color: hsl(0, 0%, 59%);
   font-size: 1.3rem;
-  font-weight: 300;
+  font-weight: 100;
+  letter-spacing: 1px;
 }
 .main__intro--bold {
   font-weight: 700;
@@ -23,7 +24,7 @@
 }
 .main__intro--paragraph {
   margin-top: 1.5rem;
-  font-size: 1rem;
+  font-size: 0.8rem;
   font-weight: 300;
 }
 .main__form {
@@ -35,27 +36,27 @@
 }
 .main__form ::-moz-placeholder {
   color: hsl(223, 100%, 88%);
-  padding: 1rem 1rem;
+  padding: 1rem 2rem;
 }
 .main__form ::placeholder {
   color: hsl(223, 100%, 88%);
-  padding: 1rem 1rem;
+  padding: 1rem 2rem;
 }
 .main__form--input {
   border: 2px hsl(223, 100%, 88%) solid;
-  width: 77%;
-  height: 2.3rem;
+  width: 18rem;
+  height: 2.5rem;
   border-radius: 2rem;
-  margin-bottom: 0.8rem;
+  margin-bottom: 0.5rem;
 }
 .main__form--error {
   color: hsl(354, 100%, 66%);
-  font-size: 0.7rem;
-  margin-bottom: 2rem;
-  font-style: oblique;
+  font-size: 0.65rem;
+  margin-bottom: 1.5rem;
 }
 .main__form--button {
   background-color: hsl(223, 87%, 63%);
+  font-size: 0.9rem;
   color: white;
   padding: 0.6rem 6.5rem;
   border-radius: 2rem;
@@ -66,7 +67,8 @@
   background-color: hsl(223, 87%, 63%);
 }
 .main__image {
-  padding: 0.4rem 2rem;
+  margin-top: -1.5rem;
+  padding: 0 2rem;
   margin-bottom: 1.6rem;
 }
 .main__image--picture {
@@ -177,6 +179,9 @@ body {
   flex-direction: column;
 }
 
+.footer {
+  margin-top: 6rem;
+}
 .footer__social {
   width: 35%;
   margin: auto;

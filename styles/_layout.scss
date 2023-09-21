@@ -1,86 +1,80 @@
 .main {
   width: 100%;
-  padding: 5.2rem 0;
   align-items: center;
   text-align: center;
+  margin-top: 5.2rem;
 
   &__logo {
-    width: 60px;
+    width: 55px;
   }
 
   &__intro {
     margin-top: 2.3rem;
     margin-bottom: 2rem;
 
-    &--title{
-      color: $Gray ;
+    &--title {
+      color: $Gray;
       font-size: $Font-size;
-      font-weight:$font-weight-slim;
+      font-weight: 100;
+      letter-spacing: 1px;
     }
-    &--bold{
+    &--bold {
       font-weight: $font-weight-bold;
-      color:$Very-Dark-Blue ;
+      color: $Very-Dark-Blue;
     }
-    
-    &--paragraph{
+
+    &--paragraph {
       margin-top: 1.5rem;
-      font-size: 1rem;
+      font-size: 0.8rem;
       font-weight: $font-weight-slim;
     }
   }
 
-  &__form{
+  &__form {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-bottom: 4rem;
-     ::placeholder{
+    ::placeholder {
       color: $Pale-Blue;
-      padding: 1rem 1rem;
-  
+      padding: 1rem 2rem;
     }
 
-    &--input{
+    &--input {
       border: 2px $Pale-Blue solid;
-      width: 77%;
-      height: 2.3rem;
+      width: 18rem;
+      height: 2.5rem;
       border-radius: 2rem;
-      margin-bottom: .8rem;
+      margin-bottom: 0.5rem;
     }
 
-    &--error{
+    &--error {
       // display: none;
       color: $Light-Red;
-      font-size: .7rem;
-      margin-bottom: 2rem;
-      font-style: oblique;
-     
+      font-size: 0.65rem;
+      margin-bottom: 1.5rem;
     }
 
-   
-    
-    &--button{
-      background-color: $Blue ;
+    &--button {
+      background-color: $Blue;
+      font-size: 0.9rem;
       color: white;
-      padding: .6rem 6.5rem;
+      padding: 0.6rem 6.5rem;
       border-radius: 2rem;
       cursor: pointer;
       box-shadow: 2px 2px 4px rgba(21, 100, 190, 0.4);
     }
-    &--button:hover{
+    &--button:hover {
       background-color: $Blue;
     }
-
   }
   &__image {
-    padding: 0.4rem 2rem ;
+    margin-top: -1.5rem;
+    padding: 0 2rem;
     margin-bottom: 1.6rem;
-  &--picture{
-    width: 100%;
-  }
-    
+    &--picture {
+      width: 100%;
+    }
   }
 }
-
-
