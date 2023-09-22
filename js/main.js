@@ -12,10 +12,11 @@ submitButton.addEventListener("click", (e) => {
 
   if (email.value.match(re)) {
     errorText.style.display = "none";
+    emailInput.classList.remove("error");
    
   } else {
     errorText.style.display = "block";
-   
+    emailInput.classList.add("error");
   }
 });
 
