@@ -45,19 +45,31 @@
       display: none;
       color: $Light-Red;
       font-size: 0.65rem;
+      font-size: 0.65rem;
+      margin-bottom: 1.5rem;
+    }
+
+    &--success{
+      display: none;
+      color: green;
+      font-weight: 600;
+      font-size: 0.65rem;
       margin-bottom: 1.5rem;
     }
 
     &--input {
       border: 2px $Pale-Blue solid;
-      width: 18rem;
+      width: 17rem;
       height: 2.5rem;
       border-radius: 2rem;
       margin-bottom: 0.5rem;
+      padding: 1rem;
+    
     }
     &--input.error {
       border: 2px solid $Light-Red; 
     }
+  
     
 
     &--button {

@@ -46,14 +46,23 @@
   display: none;
   color: hsl(354, 100%, 66%);
   font-size: 0.65rem;
+  font-size: 0.65rem;
+  margin-bottom: 1.5rem;
+}
+.main__form--success {
+  display: none;
+  color: green;
+  font-weight: 600;
+  font-size: 0.65rem;
   margin-bottom: 1.5rem;
 }
 .main__form--input {
   border: 2px hsl(223, 100%, 88%) solid;
-  width: 18rem;
+  width: 17rem;
   height: 2.5rem;
   border-radius: 2rem;
   margin-bottom: 0.5rem;
+  padding: 1rem;
 }
 .main__form--input.error {
   border: 2px solid hsl(354, 100%, 66%);
