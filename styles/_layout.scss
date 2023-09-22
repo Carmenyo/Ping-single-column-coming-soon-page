@@ -41,6 +41,13 @@
       padding: 1rem 2rem;
     }
 
+    &--error{
+      display: none;
+      color: $Light-Red;
+      font-size: 0.65rem;
+      margin-bottom: 1.5rem;
+    }
+
     &--input {
       border: 2px $Pale-Blue solid;
       width: 18rem;
@@ -48,13 +55,10 @@
       border-radius: 2rem;
       margin-bottom: 0.5rem;
     }
-
-    &--error {
-      display: none;
-      color: $Light-Red;
-      font-size: 0.65rem;
-      margin-bottom: 1.5rem;
+    &--input.error {
+      border: 2px solid $Light-Red; 
     }
+    
 
     &--button {
       background-color: $Blue;
@@ -78,3 +82,5 @@
     }
   }
 }
+
+

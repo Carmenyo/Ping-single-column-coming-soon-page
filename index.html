@@ -9,8 +9,9 @@
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100;0,600;0,700;1,300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100;0,600;0,700;1,300&display=swap"
+    rel="stylesheet">
 
   <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/de34a2681d.js" crossorigin="anonymous"></script>
@@ -22,47 +23,45 @@
 
 <body>
   <main class="main">
-
+    <!-- LOGO -->
     <img class="main__logo" src="./images/logo.svg" alt="logo">
-
+    <!-- INTRO -->
     <section class="main__intro">
       <h1 class="main__intro--title"> We are launching <span class="main__intro--bold">soon!</span></h1>
       <p class="main__intro--paragraph">Subscribe and get notified</p>
     </section>
+    <!-- FORM -->
+    <form class="main__form js-form" action="">
+      <div class="main__form--div">
+        <label for="email"></label>
 
-    <form class="main__form" action="">
-        <div class="main__form--div">
-      <label for="email"></label>
-    
-      <input class="main__form--input js-input" 
-       type="text" 
-       id="email"
-       placeholder="Your Email Address..."
-       >
-      <div class="main__form--error js-error">Please provide a valid email address</div></div>
-      <button class="main__form--button js-button">Notify Me</button>
+        <input class="main__form--input js-input" type="text" id="emailInput" placeholder="Your Email Address...">
+        <!-- ERROR -->
+        <p id="errorText" class="main__form--error">Please provide a valid email address</p>
+      </div>
+      <button id="button"  class="main__form--button js-button">Notify Me</button>
     </form>
-
+    <!-- IMAGE -->
     <section class="main__image">
       <img class="main__image--picture" src="./images/illustration-dashboard.png" alt="">
     </section>
- </main>
- 
-    <footer class="footer">
-      <div class="footer__social">
-        <div class="icon-circle">
-          <i class="fa-brands fa-facebook-f" style="color:hsl(223, 87%, 63%)"></i>
-        </div>
-        <div class="icon-circle"><i class="fa-brands fa-twitter" style="color:hsl(223, 87%, 63%)"></i></div>
-        <div class="icon-circle"> <i class="fa-brands fa-instagram" style="color:hsl(223, 87%, 63%)"></i></div>
+  </main>
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer__social">
+      <div class="icon-circle">
+        <i class="fa-brands fa-facebook-f" style="color:hsl(223, 87%, 63%)"></i>
       </div>
+      <div class="icon-circle"><i class="fa-brands fa-twitter" style="color:hsl(223, 87%, 63%)"></i></div>
+      <div class="icon-circle"> <i class="fa-brands fa-instagram" style="color:hsl(223, 87%, 63%)"></i></div>
+    </div>
+    <!-- COPY -->
+    <div class="footer__copyright">
+      <p class="">&copy; Copyright Ping. All rights reserved.</p>
+    </div>
+  </footer>
 
-
-      <div class="footer__copyright">
-        <p class="">&copy; Copyright Ping. All rights reserved.</p> </div>
-    </footer>
-
- <script src="./js/main.js"></script>
+  <script src="./js/main.js"></script>
 </body>
 
 </html>
