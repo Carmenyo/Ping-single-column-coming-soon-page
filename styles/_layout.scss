@@ -38,10 +38,10 @@
     margin-bottom: 4rem;
     ::placeholder {
       color: $Pale-Blue;
-      padding: 1rem 2rem;
+      padding: 1rem 0;
     }
 
-    &--error{
+    &--error {
       display: none;
       color: $Light-Red;
       font-size: 0.65rem;
@@ -49,7 +49,7 @@
       margin-bottom: 1.5rem;
     }
 
-    &--success{
+    &--success {
       display: none;
       color: green;
       font-weight: 600;
@@ -64,13 +64,10 @@
       border-radius: 2rem;
       margin-bottom: 0.5rem;
       padding: 1rem;
-    
     }
     &--input.error {
-      border: 2px solid $Light-Red; 
+      border: 2px solid $Light-Red;
     }
-  
-    
 
     &--button {
       background-color: $Blue;
@@ -94,5 +91,3 @@
     }
   }
 }
-
-

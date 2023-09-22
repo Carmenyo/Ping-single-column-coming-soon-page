@@ -5,7 +5,6 @@ const error = document.getElementById("errorText");
 const submitButton = document.getElementById("button");
 const success = document.getElementById("successText");
 
-
 // FUNCION DEL BOTON
 
 submitButton.addEventListener("click", (e) => {
@@ -18,11 +17,13 @@ submitButton.addEventListener("click", (e) => {
     errorText.style.display = "none";
     successText.style.display = "block";
     // PONER EL VALOR A 0
-    email.value = " "
+    email.value = " ";
 
     email.classList.remove("error");
   } else {
     errorText.style.display = "block";
     email.classList.add("error");
+    // CAMBIAR EL VALOR DE INPUT
+    email.value = "example@email.com";
   }
 });

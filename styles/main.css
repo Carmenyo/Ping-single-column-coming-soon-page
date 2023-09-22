@@ -36,11 +36,11 @@
 }
 .main__form ::-moz-placeholder {
   color: hsl(223, 100%, 88%);
-  padding: 1rem 2rem;
+  padding: 1rem 0;
 }
 .main__form ::placeholder {
   color: hsl(223, 100%, 88%);
-  padding: 1rem 2rem;
+  padding: 1rem 0;
 }
 .main__form--error {
   display: none;
