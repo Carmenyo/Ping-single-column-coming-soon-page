@@ -1,8 +1,6 @@
 # Frontend Mentor - Ping coming soon page
 
-![Preview of the Perfect Pixel Challenge design](<./images/Frontend-Mentor-Ping-coming-soon-page%20(1).png>)
-
-![Preview of the Perfect Pixel Challenge design](./images/Frontend-Mentor-Ping-coming-soon-page.png)
+![Preview of the Perfect Pixel Challenge design](<./images/Neutral Minimal Shadow Photographer Frame Mockup Pinterest Pin.png>)
 
 ## Project Description
 
