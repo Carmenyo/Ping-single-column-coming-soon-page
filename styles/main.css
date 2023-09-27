@@ -140,7 +140,7 @@
   }
   .main__image {
     max-width: 44rem;
-    margin: -2rem auto;
+    margin: auto;
   }
   .footer {
     width: 25rem;
